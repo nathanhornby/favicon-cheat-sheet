@@ -270,7 +270,7 @@ I think it's actually better to provide only `favicon.ico` and not `favicon.png`
 
 More about this in http://stackoverflow.com/questions/1344122/favicon-png-vs-favicon-ico-why-should-i-use-pngs-instead-of-icos/1344379#1344379 (Note: the text in the chosen answer about alpha transparency is incorrect. See the 2nd answer.)
 
-**Is it true that favicons should be in the site root?**
+**Is it true that favicons must be in the site root?**
 No, that's only if you don't explicitly specify the browser/device-specific
 `<link>` tags with a favicon path. See https://en.wikipedia.org/wiki/Favicon.ico.
 
